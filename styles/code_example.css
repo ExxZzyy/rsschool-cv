@@ -1,0 +1,21 @@
+.code-highlight{
+    font-family: monospace;
+    color: black;
+    margin: 5px 0px 0px;
+    font-size: 14pt;
+    word-break: break-all;
+    white-space: pre-wrap;
+    border: 2px solid rgb(85, 83, 83);
+    background:rgb(142, 215, 238);
+    border-radius: 5px;
+}
+@media (min-width: 580px){
+    .code-highlight{
+        font-size: 16pt;
+    }
+}
+@media (min-width: 769px){
+    .code-highlight{
+        font-size: 18pt;
+    }
+}
