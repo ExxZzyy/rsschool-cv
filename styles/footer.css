@@ -3,28 +3,37 @@
     justify-content: space-between;
     align-items: center;
     border-top: 2px solid rgb(128, 128, 128);
-    padding: 10px;
+    padding: 0px 10px;
 }
-.year{
+.main-footer .year{
     color: black;
     font-size: 16pt;
-    font-family: Impact;
+    font-family:'Courier New', Courier, monospace ;
+    font-weight: bold;
 }
-.link-with-image{
+.main-footer .img-link{
     display: flex;
     align-items: center;
     height: 50px;
     text-decoration: none;
     color: black;
 }
-.link-with-image>.title{
+.main-footer .img-link>.title{
     margin: 0;
     margin-left: 10px;
     padding: 0;
 }
-.link-with-image>img{
-    height: 50px;
+.main-footer .img-link>img{
+    height: 30px;
 }
-.link-with-image>.github{
+.main-footer .img-link>.github{
     height: 25px;
-} 
+}
+@media (min-width: 769px){
+    .main-footer{
+        padding: 10px 20px;
+    }
+    .main-footer .img-link>.rsschool{
+        height: 50px;
+    }
+}
